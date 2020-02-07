@@ -1,0 +1,112 @@
+.h1{
+    color: rgb(0, 0, 0)!important;
+}
+.formContact{
+    height: 200px!important;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control, .btn-primary{
+    margin-left: 10px!important;
+}
+.navbar{
+    height: auto!important;
+    min-height: 100px!important;
+}
+
+.acceuil{
+    position: relative;
+    color: white;
+    background: url("https://source.unsplash.com/random/500x500"), linear-gradient(rgba(197, 88, 88, 0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+/* .acceuil:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.9);
+  } */
+.cardTitle{
+}
+
+.bordure{ 
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.bordure:hover{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.bordure:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.bordureInverse{
+    background-color: #007bff;
+    color: white;
+}
+
+.dispoCard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardSolo{
+
+}
+
+.listAccorder{
+    display: flex;
+    justify-content: center;
+}
+.cardAutor{
+margin-top: 35px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcon{
+    height: 30px!important;
+    width: 40px!important;
+}
+
+
+.img-card{
+    position: relative;
+    bottom: 30px;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardAutor:hover, .socialIcon:hover{
+    color: rgb(255, 255, 255)!important;
+    background-color: #899096!important;
+    border-color: #007bff;
+}
+.navbarOpacity{
+    opacity: 0.8;
+}
