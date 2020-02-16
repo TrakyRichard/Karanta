@@ -10,9 +10,8 @@
     <title>Karanta</title>
 </head>
 <body>
-    <section class="sticky-top navbarOpacity">
-        <div id="entete" class="bg-light">
-            <div class="container container-fluid">
+    <div class="container-fluid bg-light">
+        <div id="entete" class="sticky-top navbarOpacity">
                 <div class="row">
                     <nav class="offset-1 col navbar navbar-expand-lg navbar-light">
                         <a href="index.html" class="navbar-brand">
@@ -24,13 +23,13 @@
                         </button>
 
                         <div id="navbarContent" class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-5 ml-auto">
+                            <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
                                     <a href="#acceuil" class="nav-link">Acceuil</a>
                                 </li>
 
                                 <li class="nav-item active">
-                                    <a href="#aPropo" class="nav-link">A Propo</a>
+                                    <a href="#about" class="nav-link">A Propo</a>
                                 </li>
 
                                 <li class="nav-item active">
@@ -46,14 +45,12 @@
                 </div>
             </div>
         </div>
-    </section>
-
     <div id="acceuil" class="container-fluid">
             <div class="row acceuil">
-                <div class="offset-1 offset-sm-0 col-lg-5 col-md-5 col mt-5">
+                <div class="col-12 col-lg-5 col-md-5 col-xl-5 mt-5">
                 <div class="container text-center">
                     <p class="h1" style="color: white!important;"> Lire , Ecrire <br> Apprendre <br> Coder</p>
-                    <p class="h6 ml-4" for="checkbox">
+                    <p class="h6" for="checkbox">
                     Le Lorem Ipsum est simplement du faux texte pression. Le Lorem Ipsum est 
                     le faux texte standard de l'imprimerie depuis les années 1500</p>
 
@@ -64,7 +61,7 @@
     
                     </div>
                 </div>
-                <div id="formSignUp" class="offset-1 col-lg-3 col-md-4 col-11 m-auto">
+                <div id="formSignUp" class="col-12 col-lg-3 col-md-4 col-xl-3">
                     <div class="img-fluid">
                         <img src="assets/poster.png" width="100%" alt="bannierre">
                     </div>
@@ -82,12 +79,12 @@
                     <div class="form-inline">
                         <button class="btn btn-primary">Souscrire</button>
                     </div>
-                </form>
+            </form>
         </div>
         
-        <div id="aPropo" class="container container-fluid">
+        <div id="about" class="container">
             <div class="row dispoCard">
-                <div class="col-12 col-md-6 col-sm-12 col-lg-3">
+                <div class="col-12 col-md-6 col-sm-12 col-xl-3 col-lg-3">
                     <div class="cardSolo card mt-4 border border-primary">
                         <div class="card-body bordure">
                             <h4 class="card-title cardTitle">Be Better</h4>
@@ -101,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-sm-12 col-lg-3">
+                <div class="col-12 col-md-6 col-xl-3 col-lg-3">
                     <div class="cardSolo card mt-4 border border-primary">
                         <div class="card-body bordureInverse">
                             <h4 class="card-title cardTitle">Be Better</h4>
@@ -115,7 +112,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-sm-12 col-lg-3">
+                <div class="col-12 col-md-6 col-sm-12 col-xl-3 col-lg-3">
                     <div class="cardSolo card mt-4 border border-primary">
                         <div class="card-body bordure">
                             <h4 class="card-title cardTitle">Be Better</h4>
@@ -129,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-sm-12 col-lg-3">
+                <div class="col-12 col-md-6 col-sm-12 col-xl-3 col-lg-3">
                     <div class="cardSolo card mt-4 border border-primary">
                         <div class="card-body bordureInverse">
                             <h4 class="card-title cardTitle">Be Better</h4>
@@ -154,12 +151,15 @@
                     </p>
                 </div>
                 <div class="container-fluid">
-                    <div class="row listAccorder m-auto">
+                    <div class="listAccorder m-auto">
                             <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center accordion" id="myAccordion">
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseOne">What is HTML?</a>
+                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseOne">
+                                                    <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                                                    What is HTML?
+                                                </a>
                                             </h2>
                                         </div>
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
@@ -171,7 +171,10 @@
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h2 class="mb-0">
-                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseTwo"><span class="glyphicon glyphicon-star bg-dark"></span>What is Bootstrap?</a>
+                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseTwo">
+                                                    <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                                                    What is Bootstrap?
+                                                </a>
                                             </h2>
                                         </div>
                                         <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#myAccordion">
@@ -183,7 +186,10 @@
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h2 class="mb-0">
-                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseThree"><span class="glyphicon glyphicon-bookmark bg-dark"></span>What is CSS?</a>
+                                                <a type="button" class="btn btn-link collapsed btn-color" data-toggle="collapse" data-target="#collapseThree">
+                                                    <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                                                    What is CSS?
+                                            </a>
                                             </h2>
                                         </div>
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordion">
@@ -198,7 +204,7 @@
                 </div>
             </div>
 
-            <div id="auteurs" class="container container-fluid">
+            <div id="auteurs" class="container">
                 <div class="row">
                     <div class="col-12 jombotron  text-center">
                         <h1 style="color: #007bff;">Les Auteurs</h1>
@@ -208,7 +214,7 @@
                         </p>
                     </div>
                 </div>
-                    <div class="row mt-5">
+                <div class="row mt-5">
                             <div class="col-12 col-md-4 col-lg-3 col-xl-3 cardSection">            
                                 <div class="card cardAutor bg-light">
                                     <img class="card-img-top w-50 m-auto img-card rounded-circle" src="assets/auteurs/auteur1.jpeg" alt="">
@@ -293,7 +299,7 @@
                 <form action="#" class="col-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="form-group">
                         <div class="container">
-                            <label for="name" class="control-label ml-3">Name</label>
+                            <label for="name" class="control-label">Name</label>
                             <div class="input-group w-100">
                                 <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-envelope"></span> 
@@ -303,7 +309,7 @@
                         </div>
 
                         <div class="container">
-                            <label for="name" class="control-label ml-3">Email</label>
+                            <label for="name" class="control-label">Email</label>
                             <div class="input-group w-100">
                                 <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-envelope"></span> 
@@ -312,7 +318,7 @@
                             </div>
                         </div>
                         <div class="container">
-                            <label for="name" class="control-label ml-3">Message</label>
+                            <label for="name" class="control-label">Message</label>
                             <div class="input-group w-100">
                                 <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-envelope"></span> 
@@ -326,10 +332,11 @@
                     </div>
                 </form>
 
-                <div class="offset-2 col-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                <div class="offset-2 col-10 col-md-4 col-lg-4 col-xl-4 mt-5">
                         <img src="assets/logo.png" alt="Logo">
                     </div>
                 </div>
+
             </div>
             <div class="container-fluid">
                 <div class="row">
