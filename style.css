@@ -6,6 +6,9 @@
     display: flex;
     justify-content: center;
 }
+.entete{
+    opacity: 0.9;
+}
 
 .form-control, .btn-primary{
     margin-left: 10px!important;
