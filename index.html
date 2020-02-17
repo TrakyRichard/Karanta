@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Karanta</title>
 </head>
-<body>
+<body class="corps">
     <div class="sticky-top container-fluid bg-light entete">
         <div id="entete" class="sticky-top navbarOpacity">
                 <div class="row">
@@ -294,49 +294,51 @@
                 </div>
             <div id="contacterNous" class="container">
                 <div class="row">
-                    <div class="col-12 mt-5 jombotron">
-                        <h3>Nous contacter</h3>
-                        <p>Veuillez Nous contacter via ce lien</p>
-                    </div>
-                </div>
-                <div class="row">
-                <form action="#" class="col-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="form-group">
-                        <div class="container">
-                            <label for="name" class="control-label">Name</label>
-                            <div class="input-group w-100">
-                                <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-envelope"></span> 
+                <form action="#" class="col-12 col-md-8 col-lg-6 col-xl-6">
+                    <div class="container-fluid">
+                        <form action="#" class="pt-5">
+                                <h5 class="text-center mt-3">Contact</h5>
+                                <h6 class="text-center">Veuillez remplir ce formulaire de contact</h6>
+        
+                                <div class="col-auto">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text bg-info whiteColor">@</div>
+                                        </div>
+                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                                    </div>
                                 </div>
-                                <input type="text" id="name" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="container">
-                            <label for="name" class="control-label">Email</label>
-                            <div class="input-group w-100">
-                                <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-envelope"></span> 
+            
+                                <div class="col-auto">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text bg-info whiteColor">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                        </div>
+                                        <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Entrez votre mail">
+                                    </div>
                                 </div>
-                                <input type="text" id="name" class="form-control">
-                            </div>
-                        </div>
-                        <div class="container">
-                            <label for="name" class="control-label">Message</label>
-                            <div class="input-group w-100">
-                                <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-envelope"></span> 
+        
+                                <div class="col-auto">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                        <div class="input-group-text bg-info whiteColor">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </div>
+                                        </div>
+                                        <textarea type="text" rows="7" class="form-control" id="inlineFormInputGroup" placeholder="Veuillez entrer votre message"></textarea>
+                                    </div>
                                 </div>
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="5"></textarea>
-                            </div>
+            
+                                <div class="col-auto input-group mb-2">
+                                    <button class="col-12 btn btn-info" type="submit">Submit</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="container">
-                            <button type="button" class="btn btn-success mt-3 w-100">Valider</button>
-                        </div>
-                    </div>
                 </form>
 
-                <div class="offset-2 col-10 col-md-4 col-lg-4 col-xl-4 mt-5">
+                <div class="offset-lg-2 text-center offset-xl-2 offset-md-2 col-10 col-md-3 col-lg-4 col-xl-4 mt-5">
                         <img src="assets/logo.png" alt="Logo">
                     </div>
                 </div>
